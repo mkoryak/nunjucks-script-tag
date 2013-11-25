@@ -5,7 +5,7 @@ Compile coffee-script, uglify inline scripts in nunjucks
 
 ### Install
 
-TODO
+`npm install nunjucks-script-tag`
 
 ### Usage
 
