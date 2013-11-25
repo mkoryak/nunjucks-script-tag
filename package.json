@@ -1,0 +1,28 @@
+{
+  "name": "nunjucks-script-tag",
+  "version": "0.0.1",
+  "description": "Compile coffee-script, uglify inline scripts in nunjucks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mkoryak/nunjucks-script-tag.git"
+  },
+  "keywords": [
+    "nunjucks"
+  ],
+  "author": "Misha Koryak",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/mkoryak/nunjucks-script-tag/issues"
+  },
+  "homepage": "https://github.com/mkoryak/nunjucks-script-tag",
+  "dependencies": {
+    "coffee-script": "~1.6.3",
+    "htmlparser2": "~3.3.0",
+    "uglify-js": "~2.4.3",
+    "nunjucks": "~1.0.0"
+  }
+}
