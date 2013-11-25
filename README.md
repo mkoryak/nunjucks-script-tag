@@ -49,11 +49,11 @@ which will produce the following html:
 
 ### Tag Params
 
-`coffee` - if true you dont need to specify the `type` attribute on the script tags - assumes ALL tags are coffeescript
-`pretty` - make the output prettier by dedenting it
-`uglify` - uglify the resulting code. Setting true will make the next few options have effect:
-`mange`  - if `uglify=true` - also mange the code
-`compress` - if `uglify=true` - also compress the code
+ - `coffee` - if true you dont need to specify the `type` attribute on the script tags - assumes ALL tags are coffeescript
+ - `pretty` - make the output prettier by dedenting it
+ - `uglify` - uglify the resulting code. Setting true will make the next few options have effect:
+ - `mange`  - if `uglify=true` - also mange the code
+ - `compress` - if `uglify=true` - also compress the code
 
 These are all defaulted to false, but you can override that behavior by passing in a map of defaults as a 2nd arg
 to the `configure` method:
